@@ -8,12 +8,12 @@
 [gitter]: https://gitter.im/Pictura-API
 
 When URL is shared on Social Media, our API
-gets a request and dynamically creates an image by either:
+gets a request and dynamically creates an image by either: Taking an image from a page and combining with your template OR Opening a page and taking a screenshot
 
 <div align="center" style="display: inline-block;">
-  <a href="https://www.pictura.io/"><img width="35%" src="https://www.pictura.io/assets/pictura-guardian-example-f9a84a06bf0e8c6fc96c18d1b28d1707b1f3eb8cebc2bbdf75209b81ef150058.png" alt="Pictura guardian example" /></a>
-or
-  <a href="https://www.pictura.io/"><img width="35%" src="https://www.pictura.io/assets/pictura-bridgestone-example-ba0593e3693fb9ab0b4981138653bea3c09d8d2ac6556c51f900221556901c41.png" alt="Pictura screenshot example" /></a>
+  <a href="https://www.pictura.io/"><img width="40%" src="https://www.pictura.io/assets/pictura-guardian-example-f9a84a06bf0e8c6fc96c18d1b28d1707b1f3eb8cebc2bbdf75209b81ef150058.png" alt="Pictura guardian example" /></a>
+<span style="width: 20%;"></span>
+  <a href="https://www.pictura.io/"><img width="40%" src="https://www.pictura.io/assets/pictura-bridgestone-example-ba0593e3693fb9ab0b4981138653bea3c09d8d2ac6556c51f900221556901c41.png" alt="Pictura screenshot example" /></a>
 </div>
 
 ## Features
