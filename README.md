@@ -13,11 +13,13 @@ When URL is shared on Social Media, our API gets Facebook/Linkedin crawlers' req
   <a href="https://www.pictura.io/"><img width="35%" src="https://www.pictura.io/assets/pictura-guardian-example-f9a84a06bf0e8c6fc96c18d1b28d1707b1f3eb8cebc2bbdf75209b81ef150058.png" alt="Pictura guardian example" /></a><a href="https://www.pictura.io/"><img width="35%" src="https://www.pictura.io/assets/pictura-bridgestone-example-ba0593e3693fb9ab0b4981138653bea3c09d8d2ac6556c51f900221556901c41.png" alt="Pictura screenshot example" /></a>
 </div>
 
-## Features
+Make different setups for different domains/subdomains/nested urls so that each would look unique.
+
+## Infrastructure
 Keep it light weight on your side and give us all the heavy lifting.
 
 * Stable and scalable amazon AWS (Lambda & S3) infrastructure
-* Chromium - Google browser project
+* Chromium - Google browser based crawling and screenshot taking
 * Image delivery through CDN.
 * Secure SSL connections.
 
@@ -42,7 +44,7 @@ Once registered, copy and paste your websites' page to save domain name under se
 Select how you would like your meta images shared on social media to look like. You can choose from 2 options: making a screenshot of your page or combining images from your page with your uploaded template.
 
 #### Step 4: Make it Dynamic & integrate
-Once setup of domains/subdomains is made, you then need to replace your existing meta og:image tags with Pictura API and provide dynamic parameters such as given page url. Here is the example for Javascript.
+Once setup of domains/subdomains is made, you then need to replace your existing meta og:image tags with Pictura API and provide dynamic parameters such as given page url. Here is the example for Nodejs.
 
 
 ```html
@@ -51,4 +53,5 @@ Once setup of domains/subdomains is made, you then need to replace your existing
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 ```
+
 
